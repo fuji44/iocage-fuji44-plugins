@@ -1,14 +1,14 @@
 {
   "name": "komga",
-  "release": "12.2-RELEASE",
+  "release": "13.3-RELEASE",
   "artifact": "https://github.com/fuji44/iocage-plugin-komga.git",
   "properties": {
     "boot": "on",
     "mount_fdescfs": "yes",
     "mount_procfs": "yes"
   },
-  "pkgs": ["jq", "openjdk11-jre", "sqlite3"],
-  "packagesite": "http://pkg.FreeBSD.org/FreeBSD:12:amd64/quarterly",
+  "pkgs": ["jq", "openjdk17-jre", "sqlite3"],
+  "packagesite": "http://pkg.FreeBSD.org/FreeBSD:13:amd64/quarterly",
   "fingerprints": {
     "plugin-default": [
       {
